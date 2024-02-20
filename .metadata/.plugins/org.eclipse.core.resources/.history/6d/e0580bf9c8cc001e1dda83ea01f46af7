@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="css/MyStyle.css">
+</head>
+<body>
+	<p style="color: red; font-size: 10; font-family: arial;">
+		Đây là đoạn văn màu đỏ, font arial.
+	</p>
+	
+	<input type="text" style="background-color: yellow">
+	<a href="https://github.com/PhiKhongHoang">Topii</a>
+	<p id="indam">NỘI DUNG</p>
+	<p class="innghieng">NỘI DUNG 1</p>
+	<div class="innghieng">NỘI DUNG 2</div>
+</body>
+</html>

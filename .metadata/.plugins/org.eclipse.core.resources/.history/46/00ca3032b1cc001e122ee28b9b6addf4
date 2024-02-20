@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Đăng ký</title>
+</head>
+<body>
+	<h1>ĐĂNG KÝ THÀNH VIÊN</h1>
+	<table border="1">
+		<tbody>
+			<tr>
+				<td colspan="2"><b>THÔNG TIN ĐĂNG NHẬP</b></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				 <td><input type="email" name="email" id="idEmail"></td>
+			</tr>
+			<tr>
+				<td>Mật khẩu:</td>
+				 <td><input type="password" name="password" id="idPassword"></td>
+			</tr>
+			<tr>
+				<td>Nhập lại mật khẩu:</td>
+				 <td><input type="password" name="re_password" id="idRe_Password"></td>
+			</tr>
+			
+			<tr>
+				<td colspan="2"><b>THÔNG TIN CÁ NHÂN</b></td>
+			</tr>
+			<tr>
+				<td>Họ và tên:</td>
+				<td><input type="text" name="name" id="idName"></td>
+			</tr>
+			<tr>
+				<td>Giới tính:</td>
+				<td>
+					<input type="radio" name="gioiTinh" id="idGioiTinhM" value="M">
+						<label for="idGioiTinhM">Nam</label>
+					<input type="radio" name="gioiTinh" id="idGioiTinhF" value="F">
+						<label for="idGioiTinhF">Nữ</label>
+				</td>
+			</tr>
+			<tr>
+				<td>Ngày sinh:</td>
+				<td><input type="date" name="ngaySinh" id="idNgaySinh"></td>
+			</tr>
+			<tr>
+				<td>Số điện thoại:</td>
+				<td><input type="tel" name="soDienThoai" id="idSoDienThoai"></td>
+			</tr>
+			
+			<tr colspan="2"><b>ĐỊA CHỈ</b></tr>
+			<tr>
+				<td>Quốc gia</td>
+				<td>
+					<select name="quocGia" id="idQuocGia">
+						<option value="vn">VN</option>
+						<option value="lao">Lào</option>
+						<option value="cpc">CPC</option>
+					</select>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

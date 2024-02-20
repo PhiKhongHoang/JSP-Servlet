@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="DangNhap">
+		<h1>ĐĂNG NHẬP</h1>
+		Tên đăng nhập:
+			<input type="text" name="tenDangNhap"><br>
+		Mật khẩu:
+			<input type="password" name="matKhau"><br>
+		<button type="submit">Đăng nhập</button>
+	</form> 
+</body>
+</html>

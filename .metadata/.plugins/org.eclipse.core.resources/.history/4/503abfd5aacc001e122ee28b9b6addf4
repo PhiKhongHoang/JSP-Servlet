@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<hr>
+	<h1>Thẻ h</h1>
+	<h1>Text</h1><!-- kích cỡ lớn nhất -->
+	<h2>Text</h2>
+	<h3>Text</h3>
+	<h4>Text</h4>
+	<h5>Text</h5>
+	<h6>Text</h6>
+	<!-- kích cỡ nhỏ nhất -->
+<hr>
+<hr>
+	<h1>Thẻ p</h1>
+	<p align="center">Đây là 1 đoạn văn bản.</p>
+	<p align="right">Đây là 1 đoạn văn bản.</p>
+<hr>
+<hr>
+	<h1>Thẻ pre</h1>
+	<pre> <!-- thẻ pre: giữ nguyên format nội dung bên trong thẻ -->
+		public static void main(String[] args) {
+			int a = 5;
+			int b = 6;
+			if (a &lt; b)
+				System.out.println("a &lt; b");
+			else
+				System.out.println("a &gt; b");
+		}
+	</pre>
+<hr>	
+<hr>
+	<h1>List</h1>
+	<!-- List
+		ol: order list: list có thứ tự
+		ul: unorder list: list không có thứ tự
+	 -->
+	 <ol type="I">
+	 	<li>Mục 1</li>
+	 	<li>Mục 2
+	 		<ol>
+	 			<li>Mục 1.1</li>
+	 			<li>Mục 1.2
+	 				<ol type="a">
+	 					<li>phần a</li>
+	 					<li>phần b</li>
+	 					<li>phần c</li>
+	 				</ol>
+	 			</li>
+	 		</ol>
+	 	</li>
+	 </ol>
+	 
+	 <ul type="circle">
+	 	<li>ví dụ 1</li>
+	 	<li>ví dụ 2</li>
+	 </ul>
+<hr>
+	
+<hr> 
+	 <p>
+	 	<font color="red" size="4" face="arial">
+	 		Thẻ font 1
+	 	</font>
+	 	<br>
+	 	<font color="blue" size="14" face="arial">
+	 		Thẻ font 2
+	 	</font>
+	 </p>
+<hr>
+<hr>	 
+	 <p>Xin chào các bạn! Mình là <b>Topii</b></p>
+	 <p>Xin chào các bạn! Mình là <strong>Topii</strong></p>
+	 <i>In nghiêng</i>
+	 <em>In nghiêng</em>
+	 <u>gạch dưới</u>
+<hr>
+<hr>
+	<h1>Thẻ a</h1>
+	<a href="https://taphoammo.net/">Click here!</a>
+<hr>
+<hr>
+	<h1>Thẻ img</h1>
+	<img width="200px" 
+	height="200px" 
+	alt="Logo Topii" 
+	src="img/icon.jfif">
+	
+<hr>
+<hr>
+	<h1>Thẻ table</h1>
+	<table border="1">
+		<thead>
+			<tr>
+				<th>STT</th>
+				<th>Họ và tên</th>
+				<th>Điểm</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>Khổng Hoàng Phi</td>
+				<td>10</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Phi Hoàng Khổng</td>
+				<td>9</td>
+			</tr>
+		</tbody>
+	</table>
+<hr>
+<hr>
+	<h1></h1>
+<hr>
+	 
+
+</body>
+</html>

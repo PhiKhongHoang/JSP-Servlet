@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Text</h1>
+	<!-- kích cỡ lớn nhất -->
+	<h2>Text</h2>
+	<h3>Text</h3>
+	<h4>Text</h4>
+	<h5>Text</h5>
+	<h6>Text</h6>
+	<!-- kích cỡ nhỏ nhất -->
+
+	<p align="center">Đây là 1 đoạn văn bản.</p>
+	<p align="right">Đây là 1 đoạn văn bản.</p>
+
+	<pre> -- thẻ pre: giữ nguyên format nội dung bên trong thẻ
+		public static void main(String[] args) {
+			int a = 5;
+			int b = 6;
+			if (a &lt; b)
+				System.out.println("a &lt; b");
+			else
+				System.out.println("a &gt; b");
+		}
+	</pre>
+	
+	<!-- List
+		ol: order list: list có thứ tự
+		ul: unorder list: list không có thứ tự
+	 -->
+	 <ol type="I">
+	 	<li>Mục 1</li>
+	 	<li>Mục 2
+	 		<ol>
+	 			<li>Mục 1.1</li>
+	 			<li>Mục 1.2
+	 				<ol>
+	 					<li>phần a</li>
+	 					<li>phần b</li>
+	 					<li>phần c</li>
+	 				</ol>
+	 			</li>
+	 		</ol>
+	 	</li>
+	 </ol>
+	 
+
+</body>
+</html>

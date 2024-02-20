@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>ĐĂNG NHẬP</h1>
+	<label for="hoVaTen">Họ Và Tên</label>
+	<input type="text" name="hoVaTen" id="hoVaTen">
+	<label for="password">Mật khẩu</label>
+	<input type="password" name="password" id="password">
+	<button type="submit">Đăng nhập</button>
+</body>
+</html>

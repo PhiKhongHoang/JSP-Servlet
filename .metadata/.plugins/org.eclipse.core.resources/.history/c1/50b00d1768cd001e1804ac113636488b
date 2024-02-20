@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+	Object obj_thongBao = request.getAttribute("thongBao");
+	String thongBao = "";
+	if(obj_thongBao != null) {
+		thongBao = obj_thongBao.toString();
+	}
+	%>
+
+	<form action="dang-nhap" method="post">
+		<h1>ĐĂNG NHẬP</h1>
+		<label for="tenDangNhap">Tên đăng nhập</label>
+		<input type="text" name="tenDangNhap" id="tenDangNhap">
+		<label for="matKhau">Mật khẩu</label>
+		<input type="password" name="matKhau" id="matKhau">
+		<button type="submit">Đăng nhập</button>
+	</form>
+</body>
+</html>

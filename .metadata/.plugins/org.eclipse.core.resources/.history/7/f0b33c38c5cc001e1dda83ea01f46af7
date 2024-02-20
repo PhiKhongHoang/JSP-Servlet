@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	h1 {
+		color: red;
+		font-family: sans-serif;
+	}
+</style>
+</head>
+<body>
+	<!-- internal style sheet -->
+	<h1>H1 thứ 1</h1>
+</body>
+</html>

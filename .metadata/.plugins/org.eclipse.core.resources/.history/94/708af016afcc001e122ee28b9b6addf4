@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Đăng ký</title>
+</head>
+<body>
+	<h1>ĐĂNG KÝ THÀNH VIÊN</h1>
+	<table border="1">
+		<tbody>
+			<tr>
+				<td colspan="2"><b>THÔNG TIN ĐĂNG NHẬP</b></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				 <td><input type="email" name="email" id="idEmail"></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				 <td><input type="password" name="password" id="idPassword"></td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
