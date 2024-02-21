@@ -3,5 +3,16 @@
     <fullyQualifiedTypeName name="org.apache.catalina.startup.ClassLoaderFactory.Repository"/>
     <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
     <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
     <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="model.TheLoai"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="model.KhachHang"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="model.TacGia"/>
+    <fullyQualifiedTypeName name="database.DAOInterface"/>
+    <fullyQualifiedTypeName name="model.DonHang"/>
+    <fullyQualifiedTypeName name="model.ChiTietDonHang"/>
+    <fullyQualifiedTypeName name="database.ChiTietDonHangDAO"/>
 </qualifiedTypeNameHistroy>
